@@ -9,7 +9,7 @@ func _ready():
 	pass
 
 func _process(delta):
-	if jugador.vidas < 1:
+	if jugador.VIDAS < 1:
 		jugador.morir()
 		perdido()
 

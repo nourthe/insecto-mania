@@ -14,12 +14,12 @@ func _process(delta):
 	actualizarTextos()
 	jugador.puntos += delta
 	actualizarEtapa()
-	if jugador.vidas < 1 :
+	if jugador.VIDAS < 1 :
 		gameOver()
 
 func actualizarTextos():
 	$textos/puntos.set_text("Puntaje: " + String(jugador.get_puntos()))
-	$textos/vidas.set_text("Vidas: " + String(jugador.vidas))
+	$textos/vidas.set_text("Vidas: " + String(jugador.VIDAS))
 	$textos/disparos.set_text("Disparos: " + String(jugador.disparos))
 
 func actualizarEtapa():

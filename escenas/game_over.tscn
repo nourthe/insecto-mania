@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://src/game_over.gd" type="Script" id=1]
 [ext_resource path="res://objects/fondo.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://assets/themes/menu/button_focus.tres" type="StyleBox" id=6]
 [ext_resource path="res://assets/themes/menu/button_disabled.tres" type="StyleBox" id=7]
 [ext_resource path="res://assets/themes/menu/button_normal.tres" type="StyleBox" id=8]
+[ext_resource path="res://assets/sounds/die.wav" type="AudioStream" id=9]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -61,6 +62,12 @@ custom_styles/focus = ExtResource( 6 )
 custom_styles/disabled = ExtResource( 7 )
 custom_styles/normal = ExtResource( 8 )
 text = "Menú"
+
+[node name="die" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+volume_db = -13.0
+pitch_scale = 1.08
+autoplay = true
 
 [connection signal="pressed" from="volver" to="." method="_on_volver_pressed"]
 [connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]

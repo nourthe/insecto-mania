@@ -4,6 +4,7 @@ export (int) var speed = 200
 
 var TIEMPO_INMUNIDAD = 3.5
 var DELAY_DISPARO = 1
+export var VIDAS = 15
 
 var velocity = Vector2()
 
@@ -13,7 +14,6 @@ var inmune
 var delay_disparo
 
 var vivo = true
-var vidas = 3
 var puntos = 0
 var disparos = 0
 
@@ -65,7 +65,12 @@ func hit(direccion):
 	if(inmune.is_stopped()):
 		inmune.start()
 		set_inmunidad_shader(true)
-		vidas -= 1
+		VIDAS -= 1
+	if VIDAS>0:
+		randomize()
+		$pain.pitch_scale = rand_range(0.91,1.03)
+		$pain.play()
+		print($pain.pitch_scale)
 
 func morir():
 	vivo = false

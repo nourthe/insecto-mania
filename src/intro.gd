@@ -4,10 +4,10 @@ func _ready():
 	get_node("intro").play("mueve_bola")
 	pass
 
-func _unhandled_input(event):
+func _input(event):
 	if event is InputEventKey:
 		finalizar()
-	elif event is InputEventMouse:
+	elif event is InputEventMouseButton:
 		finalizar()
 		
 func on_intro_end(anim_name):

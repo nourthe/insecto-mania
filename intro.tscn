@@ -7,7 +7,6 @@
 [ext_resource path="res://objects/insecto.tscn" type="PackedScene" id=5]
 
 [sub_resource type="Animation" id=1]
-
 resource_name = "mueve_bola"
 length = 3.0
 tracks/0/type = "value"
@@ -114,5 +113,4 @@ margin_top = 23.0
 margin_right = 627.0
 margin_bottom = 37.0
 text = "Pulsa cualquier tecla para continuar."
-
 [connection signal="animation_finished" from="intro" to="." method="on_intro_end"]

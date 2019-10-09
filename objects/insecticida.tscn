@@ -3,7 +3,6 @@
 [ext_resource path="res://assets/insecticida.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-
 extents = Vector2( 36.2656, 66.6222 )
 
 [node name="insecticida" type="StaticBody2D"]
@@ -16,4 +15,3 @@ texture = ExtResource( 1 )
 position = Vector2( -4.28424, 3.74419 )
 scale = Vector2( 0.4, 0.4 )
 shape = SubResource( 1 )
-

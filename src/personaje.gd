@@ -3,8 +3,9 @@ extends KinematicBody2D
 export (int) var speed = 200
 
 var TIEMPO_INMUNIDAD = 3.5
-var DELAY_DISPARO = 1
+var DELAY_DISPARO = 0.2
 export var VIDAS = 15
+export var DISPAROS_POR_INSECTICIDA = 6
 
 var velocity = Vector2()
 
@@ -53,7 +54,7 @@ func _physics_process(delta):
 			if collision.collider is StaticBody2D:
 				var resultado = get_parent().remover_objeto(collision.collider)
 				if resultado:
-					disparos += 5
+					disparos += DISPAROS_POR_INSECTICIDA
 				$disparo.show()
 	if inmune.is_stopped():
 		set_inmunidad_shader(false)

@@ -17,7 +17,7 @@ func _process(delta):
 		if global_position.y > 700 or global_position.y < -100:
 			queue_free()
 	else:
-		var dif = (1 - get_parent().get_node("delay_disparo").time_left * 0.63)
+		var dif = (1 - get_parent().get_node("delay_disparo").time_left * 2.63)
 		modulate.g = dif
 		modulate.b = dif
 

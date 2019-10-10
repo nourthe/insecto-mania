@@ -1,29 +1,39 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://src/supervivencia.gd" type="Script" id=1]
-[ext_resource path="res://objects/fondo.tscn" type="PackedScene" id=2]
-[ext_resource path="res://objects/personaje.tscn" type="PackedScene" id=3]
-[ext_resource path="res://src/personaje.gd" type="Script" id=4]
-[ext_resource path="res://objects/insecto.tscn" type="PackedScene" id=5]
-[ext_resource path="res://objects/pause_popup.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/light.png" type="Texture" id=2]
+[ext_resource path="res://objects/fondo.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/personaje.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/personaje.gd" type="Script" id=5]
+[ext_resource path="res://objects/insecto.tscn" type="PackedScene" id=6]
+[ext_resource path="res://objects/pause_popup.tscn" type="PackedScene" id=7]
 
 [node name="Juego" type="Node"]
 script = ExtResource( 1 )
 
-[node name="fondo" parent="." instance=ExtResource( 2 )]
+[node name="iluminacion" type="Light2D" parent="."]
+position = Vector2( 559.455, 249.451 )
+scale = Vector2( 1.80554, 1.09743 )
+texture = ExtResource( 2 )
+color = Color( 0.152941, 0.698039, 0.823529, 1 )
+energy = 0.75
+range_height = 58.0
+shadow_enabled = true
 
-[node name="jugador" parent="." instance=ExtResource( 3 )]
-position = Vector2( 856.177, 135.391 )
-script = ExtResource( 4 )
+[node name="fondo" parent="." instance=ExtResource( 3 )]
+
+[node name="jugador" parent="." instance=ExtResource( 4 )]
+position = Vector2( 881.14, 99.4091 )
+script = ExtResource( 5 )
 VIDAS = 20
 
-[node name="KinematicBody2D2" parent="." instance=ExtResource( 5 )]
+[node name="KinematicBody2D2" parent="." instance=ExtResource( 6 )]
 position = Vector2( 200, 500 )
 
-[node name="KinematicBody2D16" parent="." instance=ExtResource( 5 )]
+[node name="KinematicBody2D16" parent="." instance=ExtResource( 6 )]
 position = Vector2( 300, 500 )
 
-[node name="KinematicBody2D17" parent="." instance=ExtResource( 5 )]
+[node name="KinematicBody2D17" parent="." instance=ExtResource( 6 )]
 position = Vector2( 400, 500 )
 
 [node name="textos" type="Control" parent="."]
@@ -45,5 +55,4 @@ margin_left = 660.0
 margin_right = 700.0
 margin_bottom = 14.0
 
-[node name="pause_popup" parent="." instance=ExtResource( 6 )]
-
+[node name="pause_popup" parent="." instance=ExtResource( 7 )]

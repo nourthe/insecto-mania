@@ -86,5 +86,5 @@ func get_puntos():
 	return floor(puntos)
 	
 func set_inmunidad_shader(inmunidad):
-	$textura.get_material().set_shader_param("inmune", inmunidad)
-	$cola.get_material().set_shader_param("inmune", inmunidad)
+	$sprite.get_material().set_shader_param("inmune", inmunidad)
+	$sprite/cola.get_material().set_shader_param("inmune", inmunidad)

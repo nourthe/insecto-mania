@@ -71,7 +71,6 @@ func hit(direccion):
 		randomize()
 		$pain.pitch_scale = rand_range(0.91,1.03)
 		$pain.play()
-		print($pain.pitch_scale)
 
 func morir():
 	vivo = false

@@ -71,7 +71,6 @@ func addRandObject(objectString, rectExclude=Rect2(0,0,1,1)):
 	var mi = MARGEN_INSECTOS
 	var pos = rectExclude.position
 	while(rectExclude.has_point(Vector2(pos.x,pos.y))):
-		print("El punto ",pos.x,", ",pos.y," si esta en el rectExclude")
 		randomize()
 		pos.x = rand_range(mi,TAMANO_PANTALLA_X-mi)
 		pos.y = rand_range(mi,TAMANO_PANTALLA_Y-mi)	

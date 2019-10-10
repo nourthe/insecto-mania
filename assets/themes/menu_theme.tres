@@ -8,31 +8,26 @@
 [ext_resource path="res://assets/themes/DejaVuSans.ttf" type="DynamicFontData" id=6]
 
 [sub_resource type="ImageTexture" id=1]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=2]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=3]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=4]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="StyleBoxFlat" id=5]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -42,19 +37,16 @@ draw_center = false
 border_color = Color( 0.122549, 0.144608, 0.193627, 1 )
 
 [sub_resource type="ImageTexture" id=6]
-
 flags = 0
 flags = 0
 size = Vector2( 42, 26 )
 
 [sub_resource type="ImageTexture" id=7]
-
 flags = 0
 flags = 0
 size = Vector2( 42, 26 )
 
 [sub_resource type="StyleBoxFlat" id=8]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -64,25 +56,21 @@ draw_center = false
 border_color = Color( 0.122549, 0.144608, 0.193627, 1 )
 
 [sub_resource type="ImageTexture" id=9]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=10]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=11]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="StyleBoxFlat" id=12]
-
 content_margin_left = 2.0
 content_margin_right = 0.0
 content_margin_top = 0.0
@@ -91,7 +79,6 @@ bg_color = Color( 0.147059, 0.173529, 0.232353, 1 )
 border_width_left = 2
 
 [sub_resource type="StyleBoxFlat" id=13]
-
 content_margin_left = 8.0
 content_margin_right = 8.0
 content_margin_top = 8.0
@@ -107,3835 +94,3191 @@ shadow_color = Color( 0, 0, 0, 0.3 )
 shadow_size = 4
 
 [sub_resource type="ImageTexture" id=14]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=15]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=16]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=17]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=18]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=19]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=20]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=21]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=22]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=23]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=24]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=25]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=26]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=27]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=28]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=29]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=30]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=31]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=32]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=33]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=34]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=35]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=36]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=37]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=38]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=39]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=40]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=41]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=42]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=43]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=44]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=45]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=46]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=47]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=48]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=49]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=50]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=51]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=52]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=53]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=54]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=55]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=56]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=57]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=58]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=59]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=60]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 16 )
 
 [sub_resource type="ImageTexture" id=61]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=62]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=63]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=64]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=65]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=66]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=67]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=68]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=69]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=70]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=71]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=72]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=73]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=74]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=75]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=76]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=77]
-
 flags = 0
 flags = 0
 size = Vector2( 32, 128 )
 
 [sub_resource type="ImageTexture" id=78]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 128 )
 
 [sub_resource type="ImageTexture" id=79]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 128 )
 
 [sub_resource type="ImageTexture" id=80]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 128 )
 
 [sub_resource type="ImageTexture" id=81]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=82]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=83]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=84]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=85]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=86]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=87]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=88]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=89]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=90]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=91]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=92]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=93]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=94]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=95]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=96]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=97]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=98]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=99]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=100]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=101]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=102]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=103]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=104]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=105]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=106]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=107]
-
 flags = 0
 flags = 0
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=108]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=109]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=110]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=111]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=112]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=113]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=114]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=115]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=116]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=117]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=118]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=119]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=120]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=121]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=122]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 24 )
 
 [sub_resource type="ImageTexture" id=123]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=124]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=125]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=126]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=127]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=128]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=129]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=130]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=131]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=132]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=133]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=134]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=135]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=136]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=137]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=138]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=139]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=140]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=141]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=142]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=143]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=144]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=145]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=146]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=147]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=148]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=149]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=150]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=151]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=152]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=153]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=154]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=155]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=156]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=157]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=158]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=159]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=160]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=161]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=162]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=163]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=164]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=165]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=166]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=167]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=168]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=169]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=170]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=171]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=172]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=173]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=174]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=175]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=176]
-
 flags = 0
 flags = 0
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=177]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=178]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=179]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=180]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=181]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=182]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=183]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=184]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=185]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=186]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=187]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=188]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=189]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=190]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=191]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=192]
-
 flags = 0
 flags = 0
 size = Vector2( 10, 10 )
 
 [sub_resource type="ImageTexture" id=193]
-
 flags = 0
 flags = 0
 size = Vector2( 10, 10 )
 
 [sub_resource type="ImageTexture" id=194]
-
 flags = 0
 flags = 0
 size = Vector2( 10, 10 )
 
 [sub_resource type="ImageTexture" id=195]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=196]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=197]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=198]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=199]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=200]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=201]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=202]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=203]
-
 flags = 0
 flags = 0
 size = Vector2( 32, 32 )
 
 [sub_resource type="ImageTexture" id=204]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=205]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=206]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=207]
-
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=208]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=209]
-
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=210]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=211]
-
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=212]
-
 flags = 0
 flags = 0
 size = Vector2( 32, 32 )
 
 [sub_resource type="ImageTexture" id=213]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=214]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=215]
-
 flags = 0
 flags = 0
 size = Vector2( 32, 32 )
 
 [sub_resource type="ImageTexture" id=216]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=217]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=218]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=219]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=220]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=221]
-
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=222]
-
 flags = 0
 flags = 0
 size = Vector2( 32, 32 )
 
 [sub_resource type="ImageTexture" id=223]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=224]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 16 )
 
 [sub_resource type="ImageTexture" id=225]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=226]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=227]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=228]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=229]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=230]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=231]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=232]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=233]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=234]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=235]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=236]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=237]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=238]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=239]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=240]
-
 size = Vector2( 128, 128 )
 
 [sub_resource type="ImageTexture" id=241]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=242]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=243]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=244]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=245]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=246]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=247]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=248]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=249]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=250]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=251]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=252]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=253]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=254]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=255]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=256]
-
 flags = 0
 flags = 0
 size = Vector2( 14, 14 )
 
 [sub_resource type="ImageTexture" id=257]
-
 flags = 0
 flags = 0
 size = Vector2( 14, 8 )
 
 [sub_resource type="ImageTexture" id=258]
-
 flags = 0
 flags = 0
 size = Vector2( 10, 10 )
 
 [sub_resource type="ImageTexture" id=259]
-
 flags = 0
 flags = 0
 size = Vector2( 4, 16 )
 
 [sub_resource type="ImageTexture" id=260]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 64 )
 
 [sub_resource type="ImageTexture" id=261]
-
 flags = 0
 flags = 0
 size = Vector2( 6, 16 )
 
 [sub_resource type="ImageTexture" id=262]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=263]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=264]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=265]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=266]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=267]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=268]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=269]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=270]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=271]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=272]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=273]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=274]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=275]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=276]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=277]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=278]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=279]
-
 flags = 0
 flags = 0
 size = Vector2( 12, 12 )
 
 [sub_resource type="ImageTexture" id=280]
-
 flags = 0
 flags = 0
 size = Vector2( 14, 14 )
 
 [sub_resource type="ImageTexture" id=281]
-
 flags = 0
 flags = 0
 size = Vector2( 14, 14 )
 
 [sub_resource type="ImageTexture" id=282]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 4 )
 
 [sub_resource type="ImageTexture" id=283]
-
 flags = 0
 flags = 0
 size = Vector2( 64, 34 )
 
 [sub_resource type="ImageTexture" id=284]
-
 flags = 0
 flags = 0
 size = Vector2( 34, 64 )
 
 [sub_resource type="ImageTexture" id=285]
-
 flags = 0
 flags = 0
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=286]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=287]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=288]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=289]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=290]
-
 flags = 0
 flags = 0
 size = Vector2( 64, 8 )
 
 [sub_resource type="ImageTexture" id=291]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=292]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=293]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=294]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=295]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=296]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=297]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=298]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=299]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=300]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=301]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=302]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=303]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=304]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=305]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=306]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=307]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=308]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=309]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=310]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=311]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=312]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=313]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=314]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=315]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=316]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=317]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=318]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=319]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=320]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=321]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=322]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=323]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=324]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=325]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=326]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=327]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=328]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=329]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=330]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=331]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=332]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=333]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=334]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=335]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=336]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=337]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=338]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=339]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=340]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=341]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=342]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=343]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=344]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=345]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=346]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=347]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=348]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=349]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=350]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=351]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=352]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=353]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=354]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=355]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=356]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=357]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=358]
-
 flags = 0
 flags = 0
 size = Vector2( 187, 69 )
 
 [sub_resource type="ImageTexture" id=359]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=360]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=361]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=362]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=363]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=364]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=365]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=366]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=367]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=368]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=369]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=370]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=371]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=372]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=373]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=374]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=375]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=376]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=377]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=378]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=379]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=380]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=381]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=382]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=383]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=384]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=385]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=386]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=387]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=388]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=389]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=390]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=391]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=392]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=393]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=394]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=395]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=396]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=397]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=398]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=399]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=400]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=401]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=402]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=403]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=404]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=405]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=406]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=407]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=408]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=409]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=410]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=411]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=412]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=413]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=414]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=415]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=416]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=417]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=418]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=419]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=420]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=421]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=422]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=423]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=424]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=425]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=426]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=427]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=428]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=429]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=430]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=431]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=432]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=433]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=434]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=435]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=436]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=437]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=438]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=439]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=440]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=441]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=442]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=443]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=444]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=445]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=446]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=447]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=448]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=449]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=450]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=451]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=452]
-
 flags = 0
 flags = 0
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=453]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=454]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=455]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=456]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=457]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=458]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=459]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=460]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=461]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=462]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=463]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=464]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=465]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=466]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=467]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=468]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=469]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=470]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=471]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=472]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=473]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=474]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=475]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=476]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=477]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=478]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=479]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=480]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=481]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=482]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=483]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=484]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=485]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=486]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=487]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=488]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=489]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=490]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=491]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=492]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=493]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=494]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=495]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=496]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=497]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=498]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=499]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=500]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=501]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=502]
-
 flags = 0
 flags = 0
 size = Vector2( 14, 14 )
 
 [sub_resource type="ImageTexture" id=503]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=504]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=505]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=506]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=507]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=508]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=509]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=510]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=511]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=512]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=513]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=514]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=515]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=516]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=517]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=518]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=519]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=520]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=521]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=522]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=523]
-
 flags = 0
 flags = 0
 size = Vector2( 17, 17 )
 
 [sub_resource type="ImageTexture" id=524]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=525]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=526]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=527]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=528]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=529]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=530]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=531]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=532]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=533]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=534]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=535]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=536]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=537]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=538]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=539]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=540]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=541]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=542]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=543]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=544]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=545]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=546]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=547]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=548]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=549]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=550]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=551]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=552]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=553]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=554]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=555]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=556]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=557]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=558]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=559]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=560]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=561]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=562]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=563]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=564]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=565]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=566]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=567]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=568]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=569]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=570]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=571]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=572]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=573]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=574]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=575]
-
 flags = 0
 flags = 0
 size = Vector2( 64, 64 )
 
 [sub_resource type="ImageTexture" id=576]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=577]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=578]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=579]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=580]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=581]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=582]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=583]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=584]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=585]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=586]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=587]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=588]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=589]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=590]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=591]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=592]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=593]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=594]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=595]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=596]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 8 )
 
 [sub_resource type="ImageTexture" id=597]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=598]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=599]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=600]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=601]
-
 flags = 4
 flags = 4
 size = Vector2( 20, 20 )
 
 [sub_resource type="ImageTexture" id=602]
-
 flags = 4
 flags = 4
 size = Vector2( 20, 20 )
 
 [sub_resource type="ImageTexture" id=603]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=604]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=605]
-
 flags = 4
 flags = 4
 size = Vector2( 20, 20 )
 
 [sub_resource type="ImageTexture" id=606]
-
 flags = 4
 flags = 4
 size = Vector2( 20, 20 )
 
 [sub_resource type="ImageTexture" id=607]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=608]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=609]
-
 flags = 4
 flags = 4
 size = Vector2( 20, 20 )
 
 [sub_resource type="ImageTexture" id=610]
-
 flags = 4
 flags = 4
 size = Vector2( 20, 20 )
 
 [sub_resource type="ImageTexture" id=611]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=612]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=613]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=614]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=615]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=616]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=617]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=618]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=619]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=620]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=621]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=622]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=623]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=624]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=625]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=626]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=627]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=628]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=629]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=630]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=631]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=632]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=633]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=634]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=635]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=636]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=637]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=638]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=639]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=640]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=641]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=642]
-
 flags = 0
 flags = 0
 size = Vector2( 10, 10 )
 
 [sub_resource type="ImageTexture" id=643]
-
 flags = 0
 flags = 0
 size = Vector2( 48, 16 )
 
 [sub_resource type="ImageTexture" id=644]
-
 flags = 0
 flags = 0
 size = Vector2( 8, 8 )
 
 [sub_resource type="ImageTexture" id=645]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=646]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=647]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=648]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=649]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=650]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=651]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=652]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=653]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 16 )
 
 [sub_resource type="ImageTexture" id=654]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=655]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="ImageTexture" id=656]
-
 flags = 0
 flags = 0
 size = Vector2( 16, 12 )
 
 [sub_resource type="StyleBoxFlat" id=657]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -3943,7 +3286,6 @@ content_margin_bottom = 4.0
 bg_color = Color( 0.122549, 0.144608, 0.193627, 1 )
 
 [sub_resource type="StyleBoxFlat" id=658]
-
 content_margin_left = 5.0
 content_margin_right = 5.0
 content_margin_top = 5.0
@@ -3957,7 +3299,6 @@ border_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 expand_margin_top = -33.0
 
 [sub_resource type="StyleBoxFlat" id=659]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 4.0
@@ -3970,7 +3311,6 @@ border_width_bottom = 1
 border_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 
 [sub_resource type="StyleBoxFlat" id=660]
-
 content_margin_left = 5.0
 content_margin_right = 5.0
 content_margin_top = 5.0
@@ -3982,7 +3322,6 @@ border_width_right = 1
 border_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 
 [sub_resource type="StyleBoxFlat" id=661]
-
 content_margin_left = 10.0
 content_margin_right = 10.0
 content_margin_top = 5.0
@@ -3995,7 +3334,6 @@ border_color = Color( 0.122549, 0.144608, 0.193627, 1 )
 expand_margin_bottom = 1.0
 
 [sub_resource type="StyleBoxFlat" id=662]
-
 content_margin_left = 10.0
 content_margin_right = 10.0
 content_margin_top = 5.0
@@ -4008,7 +3346,6 @@ border_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 expand_margin_bottom = 1.0
 
 [sub_resource type="StyleBoxFlat" id=663]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4022,7 +3359,6 @@ border_width_bottom = 1
 border_color = Color( 0.497549, 0.519608, 0.568627, 1 )
 
 [sub_resource type="StyleBoxFlat" id=664]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4031,7 +3367,6 @@ bg_color = Color( 0.196078, 0.231373, 0.309804, 0.5 )
 border_color = Color( 0.196078, 0.231373, 0.309804, 1 )
 
 [sub_resource type="StyleBoxFlat" id=665]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4042,28 +3377,24 @@ border_width_bottom = 1
 border_color = Color( 0.411765, 0.611765, 0.909804, 1 )
 
 [sub_resource type="StyleBoxEmpty" id=666]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
 content_margin_bottom = 4.0
 
 [sub_resource type="StyleBoxEmpty" id=667]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
 content_margin_bottom = 0.0
 
 [sub_resource type="StyleBoxEmpty" id=668]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 0.0
 content_margin_bottom = 4.0
 
 [sub_resource type="StyleBoxFlat" id=669]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4076,7 +3407,6 @@ border_width_bottom = 1
 border_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 
 [sub_resource type="StyleBoxFlat" id=670]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4092,7 +3422,6 @@ shadow_color = Color( 1, 0.87, 0.4, 0.1 )
 shadow_size = 8
 
 [sub_resource type="StyleBoxFlat" id=671]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4105,7 +3434,6 @@ border_width_bottom = 1
 border_color = Color( 1, 1, 1, 0.9 )
 
 [sub_resource type="StyleBoxFlat" id=672]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4118,7 +3446,6 @@ border_width_bottom = 1
 border_color = Color( 1, 1, 1, 0.9 )
 
 [sub_resource type="StyleBoxFlat" id=673]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4131,7 +3458,6 @@ border_width_bottom = 1
 border_color = Color( 1, 1, 1, 0.9 )
 
 [sub_resource type="StyleBoxFlat" id=674]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4147,7 +3473,6 @@ shadow_color = Color( 1, 0.47, 0.42, 0.2 )
 shadow_size = 8
 
 [sub_resource type="StyleBoxFlat" id=675]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4162,7 +3487,6 @@ shadow_color = Color( 0, 0, 0, 0.3 )
 shadow_size = 8
 
 [sub_resource type="StyleBoxFlat" id=676]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4175,7 +3499,6 @@ border_width_bottom = 1
 border_color = Color( 1, 1, 1, 0.9 )
 
 [sub_resource type="StyleBoxFlat" id=677]
-
 content_margin_left = 28.0
 content_margin_right = 28.0
 content_margin_top = 24.0
@@ -4191,9 +3514,7 @@ shadow_size = 8
 
 [sub_resource type="ImageTexture" id=678]
 
-
 [sub_resource type="StyleBoxTexture" id=679]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
@@ -4206,7 +3527,6 @@ margin_top = 6.0
 margin_bottom = 6.0
 
 [sub_resource type="StyleBoxTexture" id=680]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
@@ -4219,7 +3539,6 @@ margin_top = 5.0
 margin_bottom = 5.0
 
 [sub_resource type="StyleBoxTexture" id=681]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
@@ -4232,7 +3551,6 @@ margin_top = 6.0
 margin_bottom = 6.0
 
 [sub_resource type="StyleBoxTexture" id=682]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
@@ -4245,7 +3563,6 @@ margin_top = 5.0
 margin_bottom = 5.0
 
 [sub_resource type="StyleBoxTexture" id=683]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
@@ -4258,11 +3575,9 @@ margin_top = 5.0
 margin_bottom = 5.0
 
 [sub_resource type="StyleBoxLine" id=684]
-
 color = Color( 1, 1, 1, 0.1 )
 
 [sub_resource type="StyleBoxFlat" id=685]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 2.0
@@ -4270,7 +3585,6 @@ content_margin_bottom = 2.0
 bg_color = Color( 0.397059, 0.423529, 0.482353, 1 )
 
 [sub_resource type="StyleBoxFlat" id=686]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 2.0
@@ -4278,13 +3592,11 @@ content_margin_bottom = 2.0
 bg_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 
 [sub_resource type="ImageTexture" id=687]
-
 flags = 4
 flags = 4
 size = Vector2( 32, 32 )
 
 [sub_resource type="StyleBoxTexture" id=688]
-
 texture = SubResource( 687 )
 region_rect = Rect2( 0, 0, 32, 32 )
 margin_left = 1.0
@@ -4293,7 +3605,6 @@ margin_top = 1.0
 margin_bottom = 1.0
 
 [sub_resource type="StyleBoxFlat" id=689]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4306,7 +3617,6 @@ border_width_bottom = 1
 border_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 
 [sub_resource type="StyleBoxFlat" id=690]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4320,7 +3630,6 @@ border_width_bottom = 1
 border_color = Color( 1, 1, 1, 0.2 )
 
 [sub_resource type="StyleBoxFlat" id=691]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4329,7 +3638,6 @@ bg_color = Color( 1, 1, 1, 0.2 )
 border_color = Color( 0.196078, 0.231373, 0.309804, 1 )
 
 [sub_resource type="StyleBoxFlat" id=692]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4338,7 +3646,6 @@ bg_color = Color( 1, 1, 1, 0.2 )
 border_color = Color( 0.196078, 0.231373, 0.309804, 1 )
 
 [sub_resource type="StyleBoxFlat" id=693]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4351,7 +3658,6 @@ border_width_bottom = 1
 border_color = Color( 0.411765, 0.611765, 0.909804, 1 )
 
 [sub_resource type="StyleBoxFlat" id=694]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4364,7 +3670,6 @@ border_width_bottom = 1
 border_color = Color( 0.122549, 0.144608, 0.193627, 1 )
 
 [sub_resource type="StyleBoxFlat" id=695]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4377,7 +3682,6 @@ border_width_bottom = 1
 border_color = Color( 0.137255, 0.161961, 0.216863, 1 )
 
 [sub_resource type="StyleBoxFlat" id=696]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4390,7 +3694,6 @@ border_width_bottom = 1
 border_color = Color( 0.397059, 0.423529, 0.482353, 1 )
 
 [sub_resource type="StyleBoxFlat" id=697]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4403,7 +3706,6 @@ border_width_bottom = 1
 border_color = Color( 0.411765, 0.611765, 0.909804, 1 )
 
 [sub_resource type="StyleBoxFlat" id=698]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4411,7 +3713,6 @@ content_margin_bottom = 4.0
 bg_color = Color( 0.147059, 0.173529, 0.232353, 1 )
 
 [sub_resource type="StyleBoxFlat" id=699]
-
 content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
@@ -4420,17 +3721,14 @@ bg_color = Color( 0.147059, 0.173529, 0.232353, 1 )
 border_color = Color( 0.122549, 0.144608, 0.193627, 1 )
 
 [sub_resource type="StyleBoxLine" id=700]
-
 color = Color( 1, 1, 1, 0.1 )
 grow_begin = 7.0
 
 [sub_resource type="StyleBoxLine" id=701]
-
 color = Color( 1, 1, 1, 0.1 )
 grow_end = 7.0
 
 [sub_resource type="StyleBoxFlat" id=702]
-
 content_margin_left = 8.0
 content_margin_right = 8.0
 content_margin_top = 8.0
@@ -4445,13 +3743,11 @@ shadow_color = Color( 0, 0, 0, 0.3 )
 shadow_size = 4
 
 [sub_resource type="StyleBoxLine" id=703]
-
 color = Color( 1, 1, 1, 0.1 )
 grow_begin = 7.0
 grow_end = 7.0
 
 [sub_resource type="StyleBoxTexture" id=704]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
@@ -4464,7 +3760,6 @@ margin_top = 4.0
 margin_bottom = 4.0
 
 [sub_resource type="StyleBoxTexture" id=705]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 1.0
@@ -4478,9 +3773,7 @@ margin_bottom = 6.0
 
 [sub_resource type="StyleBoxEmpty" id=706]
 
-
 [sub_resource type="StyleBoxFlat" id=707]
-
 content_margin_left = 5.0
 content_margin_right = 5.0
 content_margin_top = 5.0
@@ -4493,7 +3786,6 @@ border_width_bottom = 1
 border_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 
 [sub_resource type="StyleBoxFlat" id=708]
-
 content_margin_left = 1.0
 content_margin_right = 1.0
 content_margin_top = 1.0
@@ -4508,7 +3800,6 @@ shadow_color = Color( 0, 0, 0, 0.3 )
 shadow_size = 4
 
 [sub_resource type="StyleBoxFlat" id=709]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4517,7 +3808,6 @@ bg_color = Color( 0.397059, 0.423529, 0.482353, 1 )
 border_color = Color( 0.196078, 0.231373, 0.309804, 1 )
 
 [sub_resource type="StyleBoxFlat" id=710]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4532,12 +3822,9 @@ border_color = Color( 0.397059, 0.423529, 0.482353, 1 )
 
 [sub_resource type="StyleBoxEmpty" id=711]
 
-
 [sub_resource type="StyleBoxEmpty" id=712]
 
-
 [sub_resource type="StyleBoxFlat" id=713]
-
 content_margin_left = 4.0
 content_margin_right = 4.0
 content_margin_top = 4.0
@@ -4546,7 +3833,6 @@ bg_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 border_color = Color( 0.196078, 0.231373, 0.309804, 1 )
 
 [sub_resource type="StyleBoxTexture" id=714]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
@@ -4559,7 +3845,6 @@ margin_top = 6.0
 margin_bottom = 6.0
 
 [sub_resource type="StyleBoxTexture" id=715]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
@@ -4572,7 +3857,6 @@ margin_top = 5.0
 margin_bottom = 5.0
 
 [sub_resource type="StyleBoxTexture" id=716]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 2.0
@@ -4585,7 +3869,6 @@ margin_top = 6.0
 margin_bottom = 6.0
 
 [sub_resource type="StyleBoxTexture" id=717]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
@@ -4598,7 +3881,6 @@ margin_top = 5.0
 margin_bottom = 5.0
 
 [sub_resource type="StyleBoxTexture" id=718]
-
 content_margin_left = 0.0
 content_margin_right = 0.0
 content_margin_top = 0.0
@@ -4611,14 +3893,12 @@ margin_top = 5.0
 margin_bottom = 5.0
 
 [sub_resource type="StyleBoxLine" id=719]
-
 color = Color( 1, 1, 1, 0.1 )
 grow_begin = 0.0
 grow_end = 0.0
 vertical = true
 
 [sub_resource type="StyleBoxFlat" id=720]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 0.0
@@ -4626,7 +3906,6 @@ content_margin_bottom = 0.0
 bg_color = Color( 0.397059, 0.423529, 0.482353, 1 )
 
 [sub_resource type="StyleBoxFlat" id=721]
-
 content_margin_left = 2.0
 content_margin_right = 2.0
 content_margin_top = 0.0
@@ -4634,7 +3913,6 @@ content_margin_bottom = 0.0
 bg_color = Color( 0.0980392, 0.115686, 0.154902, 1 )
 
 [sub_resource type="StyleBoxTexture" id=722]
-
 texture = SubResource( 289 )
 region_rect = Rect2( 0, 0, 8, 8 )
 margin_left = 1.0
@@ -4643,7 +3921,6 @@ margin_top = 1.0
 margin_bottom = 1.0
 
 [sub_resource type="StyleBoxFlat" id=723]
-
 content_margin_left = 8.0
 content_margin_right = 8.0
 content_margin_top = 8.0
@@ -4659,11 +3936,9 @@ shadow_color = Color( 0, 0, 0, 0.3 )
 shadow_size = 4
 
 [sub_resource type="DynamicFont" id=724]
-
 font_data = ExtResource( 6 )
 
 [resource]
-
 default_font = SubResource( 724 )
 BoxContainer/constants/separation = 4
 Button/colors/font_color = Color( 0.8, 0.803922, 0.803922, 1 )
@@ -5665,4 +4940,3 @@ WindowDialog/fonts/title_font = null
 WindowDialog/icons/close = SubResource( 254 )
 WindowDialog/icons/close_highlight = SubResource( 254 )
 WindowDialog/styles/panel = SubResource( 723 )
-

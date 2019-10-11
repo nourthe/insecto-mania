@@ -6,11 +6,6 @@
 [ext_resource path="res://assets/disparo.png" type="Texture" id=4]
 [ext_resource path="res://assets/sounds/pain.wav" type="AudioStream" id=5]
 
-[sub_resource type="ShaderMaterial" id=8]
-shader = ExtResource( 1 )
-shader_param/inmune = null
-shader_param/VEL = 5.0
-
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 1 )
 shader_param/inmune = false
@@ -33,17 +28,18 @@ scale_curve = SubResource( 3 )
 
 [sub_resource type="CircleShape2D" id=5]
 
+[sub_resource type="ShaderMaterial" id=6]
+shader = ExtResource( 1 )
+shader_param/inmune = false
+shader_param/VEL = 5.0
+
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 29.157, 6.27036 )
 
 [node name="personaje" type="KinematicBody2D"]
 scale = Vector2( 0.5, 0.5 )
 
-[node name="sprite" type="Sprite" parent="."]
-material = SubResource( 8 )
-texture = ExtResource( 2 )
-
-[node name="cola" type="Particles2D" parent="sprite"]
+[node name="cola" type="Particles2D" parent="."]
 material = SubResource( 1 )
 scale = Vector2( 0.5, 0.5 )
 amount = 14
@@ -56,6 +52,14 @@ texture = ExtResource( 2 )
 [node name="hitbox" type="CollisionShape2D" parent="."]
 scale = Vector2( 5, 5 )
 shape = SubResource( 5 )
+
+[node name="textura" type="TextureRect" parent="."]
+material = SubResource( 6 )
+margin_left = -50.0
+margin_top = -50.0
+margin_right = 50.0
+margin_bottom = 50.0
+texture = ExtResource( 2 )
 
 [node name="inmune" type="Timer" parent="."]
 one_shot = true

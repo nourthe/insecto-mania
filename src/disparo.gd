@@ -24,9 +24,6 @@ func _process(delta):
 func _on_disparo_body_entered(body):
 	if disparando:
 		if body is preload("res://src/insecto.gd"):
-			var arr = get_parent().get_parent().objetos
-			if arr.find(body):
-				arr.erase(body)
-				body.queue_free()
+			get_parent().get_parent().remover_objeto(body)
 	else:
 		print("La bala la toco pero esta desactivada.")

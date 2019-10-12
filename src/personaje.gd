@@ -18,6 +18,9 @@ var vivo = true
 var puntos = 0
 var disparos = 0
 
+signal sin_balas
+signal mori
+
 func _ready():
 	inmune = $inmune
 	delay_disparo = $delay_disparo
@@ -71,9 +74,12 @@ func hit(direccion):
 		randomize()
 		$pain.pitch_scale = rand_range(0.91,1.03)
 		$pain.play()
+	else:
+		morir()
 
 func morir():
 	vivo = false
+	emit_signal("mori")
 
 func disparar():
 	if disparos > 0 and delay_disparo.is_stopped():
@@ -82,6 +88,7 @@ func disparar():
 		disparos -= 1
 		if disparos == 0:
 			$disparo.hide()
+			emit_signal("sin_balas")
 func get_puntos():
 	return floor(puntos)
 	

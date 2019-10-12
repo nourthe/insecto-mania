@@ -7,6 +7,8 @@ var MARGEN_INSECTOS = 100
 var objetos
 var jugador
 
+signal objetos_updated
+
 func _ready():
 	jugador = $jugador
 	leerObjetos()
@@ -23,6 +25,7 @@ func remover_objeto(obj):
 	else:
 		objetos.erase(obj)
 		obj.queue_free()
+		emit_signal("objetos_updated")
 		return true
 
 func _process(delta):

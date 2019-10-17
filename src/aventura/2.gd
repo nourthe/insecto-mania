@@ -20,9 +20,5 @@ func _on_base_objetos_updated():
 			return 0
 	completado()
 
-func on_siguiente():
-	print("MI SIGUIENTE")
-	get_tree().change_scene("res://escenas/menu_aventura.tscn")
-
 func _on_jugador_mori():
 	perdido()

@@ -1,20 +1,23 @@
 extends "res://src/motor.gd"
 
 var startTimer = Timer.new()
-var presentacion = "Evita los insectos y encuentra la salida"
 
 func _ready():
 	connect_buttons()
 	start_cuenta_atras()
-	$presentacion/cc/Label.set_text(presentacion)
-	$presentacion.show()
+	set_presentacion("Evita los insectos y encuentra la salida")
 	get_tree().set_pause(true)
 
+func set_presentacion(presentacion):
+	$presentacion/cc/Label.set_text(presentacion)
+	$presentacion.show()
+	
 func start_cuenta_atras():
 	add_child(startTimer)
 	startTimer.set_pause_mode(Node.PAUSE_MODE_PROCESS)
 	startTimer.connect("timeout", self, "start")
 	startTimer.wait_time = 3.0
+	startTimer.one_shot = true
 	startTimer.start()
 	
 func connect_buttons():

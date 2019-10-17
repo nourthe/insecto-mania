@@ -46,4 +46,3 @@ margin_right = 700.0
 margin_bottom = 14.0
 
 [node name="pause_popup" parent="." instance=ExtResource( 6 )]
-

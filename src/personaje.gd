@@ -75,11 +75,12 @@ func hit(direccion):
 		$pain.pitch_scale = rand_range(0.91,1.03)
 		$pain.play()
 	else:
+		emit_signal("mori")
 		morir()
 
 func morir():
 	vivo = false
-	emit_signal("mori")
+	#emit_signal("mori")
 
 func disparar():
 	if disparos > 0 and delay_disparo.is_stopped():

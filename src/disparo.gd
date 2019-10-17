@@ -1,17 +1,20 @@
 extends Area2D
 
+export var VELOCIDAD = 22
 var disparando = false
 
 func _ready():
 	pass
 func disparar():
 	var nuevo = duplicate()
-	get_parent().add_child(nuevo)
+	get_parent().get_parent().add_child(nuevo)
+	nuevo.position = get_parent().position
+	nuevo.scale = Vector2(0.5, 0.5)
 	nuevo.disparando = true
 
 func _process(delta):
 	if disparando:
-		position += Vector2(50,0).rotated(rotation)
+		position += Vector2(VELOCIDAD,0).rotated(rotation)
 		if global_position.x > 1200 or global_position.x < -100:
 			queue_free()
 		if global_position.y > 700 or global_position.y < -100:
@@ -24,6 +27,6 @@ func _process(delta):
 func _on_disparo_body_entered(body):
 	if disparando:
 		if body is preload("res://src/insecto.gd"):
-			get_parent().get_parent().remover_objeto(body)
+			get_parent().remover_objeto(body)
 	else:
 		print("La bala la toco pero esta desactivada.")

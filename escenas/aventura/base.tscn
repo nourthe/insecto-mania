@@ -8,11 +8,9 @@
 [ext_resource path="res://assets/themes/menu_theme.tres" type="Theme" id=6]
 
 [sub_resource type="CircleShape2D" id=1]
-
 radius = 8.96859
 
 [sub_resource type="Animation" id=2]
-
 resource_name = "logrado"
 tracks/0/type = "value"
 tracks/0/path = NodePath("jugador/textura:rect_scale")
@@ -174,7 +172,6 @@ margin_bottom = 307.0
 
 [node name="animacion" type="AnimationPlayer" parent="."]
 anims/logrado = SubResource( 2 )
-
 [connection signal="pressed" from="pause_popup/CenterContainer/GridContainer/seleccion" to="pause_popup" method="_on_seleccion_pressed"]
 
 [editable path="jugador"]

@@ -24,7 +24,8 @@ func remover_objeto(obj):
 		return false
 	else:
 		objetos.erase(obj)
-		obj.queue_free()
+		if weakref(obj).get_ref():
+			obj.queue_free()
 		emit_signal("objetos_updated")
 		return true
 
@@ -33,6 +34,9 @@ func _process(delta):
 		var wr = weakref(objeto)
 		if(!wr.get_ref()):
 			print("REFERENCIA ROTA. ESTAMOS AGRADECIDOS.")
+			if remover_objeto(objeto):
+				print("Referencia rota eliminada correctamente.")
+			
 		else:
 			if objeto.get_class() == "KinematicBody2D":
 				comprobarPosicion(objeto)

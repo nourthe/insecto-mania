@@ -30,12 +30,16 @@ func remover_objeto(obj):
 
 func _process(delta):
 	for objeto in objetos:
-		if objeto.get_class() == "KinematicBody2D":
-			comprobarPosicion(objeto)
-		if objeto.get_class() == "StaticBody2D":
-			objeto.scale = objeto.scale*(1-delta*0.25)
-			if objeto.scale.x < 0.2:
-				remover_objeto(objeto)
+		var wr = weakref(objeto)
+		if(!wr.get_ref()):
+			print("REFERENCIA ROTA. ESTAMOS AGRADECIDOS.")
+		else:
+			if objeto.get_class() == "KinematicBody2D":
+				comprobarPosicion(objeto)
+			if objeto.get_class() == "StaticBody2D":
+				objeto.scale = objeto.scale*(1-delta*0.25)
+				if objeto.scale.x < 0.2:
+					remover_objeto(objeto)
 	
 
 func comprobarPosicion(obj):

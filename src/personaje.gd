@@ -54,7 +54,7 @@ func _physics_process(delta):
 			collision = move_and_collide(acelerado*delta*400)
 			acelerado*=0.9
 		if collision:
-			if collision.collider is StaticBody2D:
+			if collision.collider.is_in_group("insecticida"):
 				var resultado = get_parent().remover_objeto(collision.collider)
 				if resultado:
 					disparos += DISPAROS_POR_INSECTICIDA

@@ -4,7 +4,7 @@ export (int) var speed = 200
 
 var TIEMPO_INMUNIDAD = 3.5
 var DELAY_DISPARO = 0.2
-export var VIDAS = 15
+export var VIDAS = 4
 export var DISPAROS_POR_INSECTICIDA = 6
 
 var velocity = Vector2()
@@ -59,6 +59,10 @@ func _physics_process(delta):
 				if resultado:
 					disparos += DISPAROS_POR_INSECTICIDA
 				$disparo.show()
+			elif collision.collider.is_in_group("corazon"):
+				var resultado = get_parent().remover_objeto(collision.collider)
+				if resultado:
+					VIDAS += 1
 	if inmune.is_stopped():
 		set_inmunidad_shader(false)
 	if velocity != Vector2.ZERO:

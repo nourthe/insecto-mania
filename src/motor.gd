@@ -40,7 +40,7 @@ func _process(delta):
 		else:
 			if objeto.get_class() == "KinematicBody2D":
 				comprobarPosicion(objeto)
-			if objeto.get_class() == "StaticBody2D":
+			if objeto.is_in_group("insecticida"):
 				objeto.scale = objeto.scale*(1-delta*0.25)
 				if objeto.scale.x < 0.2:
 					remover_objeto(objeto)
@@ -64,6 +64,10 @@ func addObject(objectString, posX, posY):
 			obj = preload("res://objects/insecto.tscn").instance()
 		"insecticida":
 			obj = preload("res://objects/insecticida.tscn").instance()
+		"corazon":
+			obj = preload("res://objects/corazon.tscn").instance()
+			obj.get_node("latido").play("latido")
+			obj.get_node("entorno").play("degradacion")
 	obj.position.x = posX
 	obj.position.y = posY
 	add_child(obj)
@@ -76,6 +80,10 @@ func addInsecto(posX, posY):
 #Añade un insecticida en la posición (posX,posY)
 func addInsecticida(posX, posY):
 	addObject("insecticida", posX, posY)
+
+#Añade un corazon en la posición (posX,posY)
+func addCorazon(posX, posY):
+	addObject("corazon", posX, posY)
 	
 #Añade un insecto en una posicion aleatoria
 func addRandObject(objectString, rectExclude=Rect2(0,0,1,1)):

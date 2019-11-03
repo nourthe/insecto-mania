@@ -2,10 +2,10 @@ extends KinematicBody2D
 
 export (int) var speed = 200
 
-var TIEMPO_INMUNIDAD = 3.5
+var TIEMPO_INMUNIDAD = 3.2
 var DELAY_DISPARO = 0.2
-export var VIDAS = 4
-export var DISPAROS_POR_INSECTICIDA = 6
+export var VIDAS = 3
+export var DISPAROS_POR_INSECTICIDA = 5
 
 var velocity = Vector2()
 

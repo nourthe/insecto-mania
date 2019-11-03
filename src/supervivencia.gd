@@ -11,8 +11,6 @@ func _ready():
 	jugador.puntos = 0
 	etapa = 1
 	randomize()
-	addCorazon(120, 300)
-	addCorazon(120, 200)
 
 func _process(delta):
 	actualizarTextos()

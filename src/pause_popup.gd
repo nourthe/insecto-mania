@@ -1,20 +1,21 @@
 extends Popup
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-#func _process(delta):
-		
 func _input(event):
 	if Input.is_action_pressed('pause'):
 		visible = !visible
 		get_tree().paused = visible
 		rect_position = get_parent().get_node("jugador").position
+
+func _notification(what):
+	if what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST:
+		# For Windows
+		print("Windows quit request ignored.")
+		pass        
+	if what == MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST: 
+		# For Android
+		#Input.action_press('pause')
+		# I can't handle the pouse for now.
+		pass
 
 func reanudar():
 	if get_parent().has_method("reanudar"):

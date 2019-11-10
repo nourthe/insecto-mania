@@ -7,7 +7,10 @@ var DELAY_DISPARO = 0.2
 export var VIDAS = 3
 export var DISPAROS_POR_INSECTICIDA = 5
 
+
+
 var velocity = Vector2()
+var force
 
 var acelerado = Vector2(0,0)
 
@@ -21,6 +24,8 @@ var disparos = 0
 signal sin_balas
 signal mori
 
+onready var joystick_move = $TouchUI/Joystick
+
 func _ready():
 	inmune = $inmune
 	delay_disparo = $delay_disparo
@@ -32,6 +37,12 @@ func _ready():
 
 func get_input():
 	velocity = Vector2()
+	
+	# Touch joystick
+	if joystick_move and joystick_move.is_working:
+		velocity += joystick_move.output
+	
+	# Traditional Inputs
 	if Input.is_action_pressed('pj_right'):
 		velocity.x += 1
 	if Input.is_action_pressed('pj_left'):
@@ -40,7 +51,12 @@ func get_input():
 		velocity.y += 1
 	if Input.is_action_pressed('pj_up'):
 		velocity.y -= 1
-	velocity = velocity.normalized() * speed
+	
+	# Normalize
+	if velocity.length() > 1:
+		velocity = velocity.normalized()
+	velocity *= speed
+
 func _input(event):
 	if Input.is_action_pressed("pj_shoot"):
 		disparar()

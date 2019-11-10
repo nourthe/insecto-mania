@@ -39,6 +39,5 @@ margin_top = 116.0
 margin_right = 248.0
 margin_bottom = 145.0
 text = "Volver al Menú"
-
 [connection signal="pressed" from="CenterContainer/GridContainer/unpause" to="." method="_on_unpause_pressed"]
 [connection signal="pressed" from="CenterContainer/GridContainer/return_menu" to="." method="_on_return_menu_pressed"]

@@ -16,7 +16,6 @@ func _on_jugador_sin_balas():
 func _on_base_objetos_updated():
 	for objeto in objetos:
 		if objeto is preload("res://src/insecto.gd"):
-			print(objeto)
 			return 0
 	completado()
 

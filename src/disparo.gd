@@ -28,5 +28,4 @@ func _on_disparo_body_entered(body):
 	if disparando:
 		if body is preload("res://src/insecto.gd"):
 			get_parent().remover_objeto(body)
-	else:
-		print("La bala la toco pero esta desactivada.")
+	#else: La bala la toco pero esta desactivada.

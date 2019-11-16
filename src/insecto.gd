@@ -17,3 +17,8 @@ func _process(delta):
 		if collision:
 			if collision.collider.has_method("hit"):
 				collision.collider.hit(collision.normal)
+				
+func morir():
+	$animations.play("morir")
+	yield($animations, "animation_finished")
+	queue_free()

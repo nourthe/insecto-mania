@@ -1,20 +1,24 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://escenas/aventura/base.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/aventura/2.gd" type="Script" id=2]
+[ext_resource path="res://escenas/menu_aventura.tscn" type="PackedScene" id=3]
 
 [node name="base" index="0" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
+next_scene = ExtResource( 3 )
 
 [node name="exit" parent="." index="1"]
-editor/display_folded = true
 visible = false
 
 [node name="jugador" parent="." index="2"]
 position = Vector2( 57.5236, 288.327 )
 
-[node name="Camera2D" parent="jugador" index="7"]
+[node name="Camera2D" parent="jugador" index="8"]
 current = false
+
+[node name="pause_popup" parent="." index="3"]
+follow_player = false
 
 [node name="seleccion" parent="pause_popup/CenterContainer/GridContainer" index="3"]
 margin_top = 116.0
@@ -29,9 +33,6 @@ margin_bottom = 153.0
 [node name="return_menu" parent="pause_popup/CenterContainer/GridContainer" index="5"]
 margin_top = 157.0
 margin_bottom = 186.0
-
-[node name="logrado_popup" parent="." index="4"]
-editor/display_folded = true
 [connection signal="objetos_updated" from="." to="." method="_on_base_objetos_updated"]
 [connection signal="mori" from="jugador" to="." method="_on_jugador_mori"]
 [connection signal="sin_balas" from="jugador" to="." method="_on_jugador_sin_balas"]

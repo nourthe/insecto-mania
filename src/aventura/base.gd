@@ -1,5 +1,6 @@
 extends "res://src/motor.gd"
 
+export (PackedScene) var next_scene
 var startTimer = Timer.new()
 
 func _ready():
@@ -31,6 +32,8 @@ func start():
 	
 func completado():
 	$animacion.play('logrado')
+	yield($animacion, "animation_finished")
+	remover_objeto($jugador)
 	$logrado_popup.rect_position = get_node("jugador").position
 	$logrado_popup.show()
 
@@ -39,7 +42,7 @@ func perdido():
 	$perdido_popup.show()
 
 func on_siguiente():
-	get_tree().change_scene("res://escenas/menu_aventura.tscn")
+	get_tree().change_scene_to(next_scene)
 func on_reintentar():
 	get_tree().reload_current_scene()
 func on_return():

@@ -56,6 +56,7 @@ tracks/2/keys = {
 [node name="fondo" parent="." instance=ExtResource( 1 )]
 
 [node name="exit" type="Area2D" parent="."]
+editor/display_folded = true
 position = Vector2( 949.717, 290.233 )
 
 [node name="textura" type="Sprite" parent="exit"]
@@ -92,6 +93,7 @@ margin_right = 40.0
 margin_bottom = 4.0
 
 [node name="logrado_popup" type="Popup" parent="."]
+editor/display_folded = true
 
 [node name="cc" type="CenterContainer" parent="logrado_popup"]
 margin_right = 40.0
@@ -157,6 +159,7 @@ margin_bottom = 101.0
 text = "Selección de Nivel"
 
 [node name="presentacion" type="Popup" parent="."]
+editor/display_folded = true
 margin_right = 40.0
 margin_bottom = 40.0
 

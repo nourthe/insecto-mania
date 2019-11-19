@@ -7,7 +7,7 @@ func _ready():
 	connect_buttons()
 	start_cuenta_atras()
 	set_presentacion("Evita los insectos y encuentra la salida")
-	get_tree().set_pause(true)
+	pause()
 
 func set_presentacion(presentacion):
 	$presentacion/cc/Label.set_text(presentacion)
@@ -24,12 +24,12 @@ func start_cuenta_atras():
 func connect_buttons():
 	$logrado_popup/cc/gc/siguiente.connect("pressed", self, "on_siguiente")
 	$logrado_popup/cc/gc/return.connect("pressed", self, "on_return")
-	$perdido_popup/cc/gc/reintentar.connect("pressed", self, "on_reintentar")
-	$perdido_popup/cc/gc/return.connect("pressed", self, "on_return")
+#	$perdido_popup/cc/gc/reintentar.connect("pressed", self, "on_reintentar")
+#	$perdido_popup/cc/gc/return.connect("pressed", self, "on_return")
 func start():
 	$presentacion.hide()
-	get_tree().paused = false
-	
+	reanudar()
+
 func completado():
 	$animacion.play('logrado')
 	yield($animacion, "animation_finished")
@@ -43,7 +43,18 @@ func perdido():
 
 func on_siguiente():
 	get_tree().change_scene_to(next_scene)
-func on_reintentar():
-	get_tree().reload_current_scene()
-func on_return():
-	get_tree().change_scene("res://escenas/menu_aventura.tscn")
+	
+#func on_reintentar():
+#	get_tree().reload_current_scene()
+
+#func on_return():
+#	get_tree().change_scene("res://escenas/menu_aventura.tscn")
+#
+func _on_popup_paused():
+	startTimer.paused = true
+
+func _on_popup_unpaused():
+	print(startTimer.time_left)
+	if startTimer.time_left != 0:
+		get_tree().paused = true
+		startTimer.paused = false

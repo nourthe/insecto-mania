@@ -98,6 +98,9 @@ func addRandObject(objectString, rectExclude=Rect2(0,0,1,1)):
 		pos.y = rand_range(mi,TAMANO_PANTALLA_Y-mi)	
 	addObject(objectString, pos.x, pos.y)
 
+func pause():
+	get_tree().paused = true
+
 func reanudar():
 	get_node("pause_popup").hide()
 	get_tree().paused = false

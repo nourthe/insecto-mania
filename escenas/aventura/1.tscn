@@ -4,14 +4,14 @@
 [ext_resource path="res://src/aventura/1.gd" type="Script" id=2]
 [ext_resource path="res://escenas/aventura/2.tscn" type="PackedScene" id=3]
 
-[node name="1" instance=ExtResource( 1 )]
+[node name="1" index="0" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 next_scene = ExtResource( 3 )
 
 [node name="exit" parent="." index="1"]
 position = Vector2( 1886.18, 704.884 )
 
-[node name="logrado_popup" parent="." index="4"]
+[node name="logrado_popup" parent="." index="5"]
 editor/display_folded = false
 [connection signal="body_entered" from="exit" to="." method="_on_exit_body_entered"]
 

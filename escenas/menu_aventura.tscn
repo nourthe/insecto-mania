@@ -40,7 +40,6 @@ margin_right = 599.0
 margin_bottom = 90.0
 size_flags_horizontal = 3
 theme = ExtResource( 3 )
-disabled = true
 text = "3"
 
 [node name="Label" type="Label" parent="botonera"]
@@ -58,4 +57,5 @@ theme = ExtResource( 4 )
 text = "Volver al menú"
 [connection signal="pressed" from="botonera/1" to="." method="_on_1"]
 [connection signal="pressed" from="botonera/2" to="." method="_on_2"]
+[connection signal="pressed" from="botonera/3" to="." method="_on_3_pressed"]
 [connection signal="pressed" from="menu" to="." method="_on_menu_pressed"]

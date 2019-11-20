@@ -10,7 +10,7 @@ export var DISPAROS_POR_INSECTICIDA = 5
 
 
 var velocity = Vector2()
-var force
+#var force
 
 var acelerado = Vector2(0,0)
 
@@ -57,6 +57,7 @@ func get_input():
 		velocity = velocity.normalized()
 	velocity *= speed
 
+# warning-ignore:unused_argument
 func _input(event):
 	if Input.is_action_pressed("pj_shoot"):
 		disparar()

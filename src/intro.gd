@@ -10,8 +10,9 @@ func _input(event):
 	elif event is InputEventMouseButton:
 		finalizar()
 		
+# warning-ignore:unused_argument
 func on_intro_end(anim_name):
 	finalizar()
 	
 func finalizar():
-	get_tree().change_scene("res://escenas/menu.tscn")
+	global.to_scene("res://escenas/menu.tscn")

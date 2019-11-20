@@ -1,11 +1,12 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://src/supervivencia.gd" type="Script" id=1]
+[ext_resource path="res://escenas/supervivencia.gd" type="Script" id=1]
 [ext_resource path="res://objects/fondo.tscn" type="PackedScene" id=2]
 [ext_resource path="res://objects/personaje.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/personaje.gd" type="Script" id=4]
 [ext_resource path="res://objects/insecto.tscn" type="PackedScene" id=5]
 [ext_resource path="res://objects/pause_popup.tscn" type="PackedScene" id=6]
+
 
 [node name="Juego" type="Node"]
 script = ExtResource( 1 )

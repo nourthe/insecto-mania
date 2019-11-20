@@ -102,6 +102,7 @@ func _following(vector: Vector2) -> void:
 		new_pos.y = clamp(new_pos.y, -_background.rect_size.y / 2, rect_size.y - _background.rect_size.y / 2)
 		_background.rect_position = new_pos
 
+# warning-ignore:shadowed_variable
 func _directional_vector(vector: Vector2, n_directions: int, simmetry_angle := PI/2) -> Vector2:
 	var angle := (vector.angle() + simmetry_angle) / (PI / n_directions)
 	angle = floor(angle) if angle >= 0 else ceil(angle)

@@ -1,4 +1,4 @@
-extends "res://src/aventura/base.gd"
+extends Base
 
 func _ready():
 	addInsecticida(100, 200)

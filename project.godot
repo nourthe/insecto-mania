@@ -9,13 +9,25 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Motor",
+"class": "Base",
+"language": "GDScript",
+"path": "res://escenas/aventura/base.gd"
+}, {
 "base": "Control",
 "class": "Joystick",
 "language": "GDScript",
 "path": "res://objects/Joystick/Joystick.gd"
+}, {
+"base": "Node",
+"class": "Motor",
+"language": "GDScript",
+"path": "res://src/motor.gd"
 } ]
 _global_script_class_icons={
-"Joystick": ""
+"Base": "",
+"Joystick": "",
+"Motor": ""
 }
 
 [application]

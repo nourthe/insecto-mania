@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://src/menu.gd" type="Script" id=1]
+[ext_resource path="res://escenas/menu.gd" type="Script" id=1]
 [ext_resource path="res://objects/fondo.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/themes/menu_theme.tres" type="Theme" id=3]
 [ext_resource path="res://assets/themes/menu/menu_hover.tres" type="StyleBox" id=4]
@@ -8,6 +8,7 @@
 [ext_resource path="res://assets/themes/menu/button_focus.tres" type="StyleBox" id=6]
 [ext_resource path="res://assets/themes/menu/button_disabled.tres" type="StyleBox" id=7]
 [ext_resource path="res://assets/themes/menu/button_normal.tres" type="StyleBox" id=8]
+
 
 [node name="Node" type="Node"]
 script = ExtResource( 1 )

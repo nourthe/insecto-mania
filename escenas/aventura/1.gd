@@ -1,4 +1,4 @@
-extends "res://src/aventura/base.gd"
+extends Base
 
 func _ready():
 	TAMANO_PANTALLA_X = 2000
@@ -8,6 +8,7 @@ func _ready():
 		addInsecto(i*30,100)
 	pass
 
+# warning-ignore:unused_argument
 func _process(delta):
 	if jugador.VIDAS < 1:
 		jugador.morir()

@@ -1,4 +1,5 @@
 extends Node
+class_name Motor
 
 var TAMANO_PANTALLA_X = 1024
 var TAMANO_PANTALLA_Y = 600
@@ -107,4 +108,4 @@ func reanudar():
 
 func gameOver():
 	global.super_last_score = jugador.get_puntos()
-	get_tree().change_scene("res://escenas/game_over.tscn")
+	global.to_scene("res://escenas/game_over.tscn")

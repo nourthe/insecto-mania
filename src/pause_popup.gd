@@ -7,6 +7,7 @@ signal unpaused
 func _ready():
 	print(visible)
 	
+# warning-ignore:unused_argument
 func _input(event):
 	if Input.is_action_just_released('pause'):
 		if !visible:

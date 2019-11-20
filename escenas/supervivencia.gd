@@ -1,4 +1,4 @@
-extends "motor.gd"
+extends Motor
 
 # Duracion de cada etapa en segundos
 export var DURACION_ETAPA = 6

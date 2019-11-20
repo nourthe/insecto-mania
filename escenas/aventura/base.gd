@@ -1,5 +1,5 @@
-extends "res://src/motor.gd"
-
+extends Motor
+class_name Base
 export (PackedScene) var next_scene
 var startTimer = Timer.new()
 
@@ -22,10 +22,14 @@ func start_cuenta_atras():
 	startTimer.start()
 	
 func connect_buttons():
-	$logrado_popup/cc/gc/siguiente.connect("pressed", self, "on_siguiente")
-	$logrado_popup/cc/gc/return.connect("pressed", self, "on_return")
-#	$perdido_popup/cc/gc/reintentar.connect("pressed", self, "on_reintentar")
-#	$perdido_popup/cc/gc/return.connect("pressed", self, "on_return")
+	if $logrado_popup/cc/gc/siguiente.connect("pressed", self, "on_siguiente") != 0:
+		print("error")
+	if $logrado_popup/cc/gc/return.connect("pressed", self, "on_return") != 0:
+		print("error")
+	if $perdido_popup/cc/gc/reintentar.connect("pressed", self, "on_reintentar") != 0:
+		print("error")
+	if $perdido_popup/cc/gc/return.connect("pressed", self, "on_return") != 0:
+		print("error")
 func start():
 	$presentacion.hide()
 	reanudar()
@@ -42,19 +46,19 @@ func perdido():
 	$perdido_popup.show()
 
 func on_siguiente():
-	get_tree().change_scene_to(next_scene)
+	if global.change_scene_to(next_scene) != 0:
+		print("Error")
 	
-#func on_reintentar():
-#	get_tree().reload_current_scene()
+func on_reintentar():
+	global.reload_current_scene()
 
-#func on_return():
-#	get_tree().change_scene("res://escenas/menu_aventura.tscn")
-#
+func on_return():
+	global.to_scene("res://escenas/menu_aventura.tscn")
+
 func _on_popup_paused():
 	startTimer.paused = true
 
 func _on_popup_unpaused():
-	print(startTimer.time_left)
 	if startTimer.time_left != 0:
 		get_tree().paused = true
 		startTimer.paused = false

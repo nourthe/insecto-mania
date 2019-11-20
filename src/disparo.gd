@@ -14,7 +14,7 @@ func disparar():
 
 func _process(delta):
 	if disparando:
-		position += Vector2(VELOCIDAD,0).rotated(rotation)
+		position += Vector2(VELOCIDAD,0).rotated(rotation) * delta*60
 		if global_position.x > 1200 or global_position.x < -100:
 			queue_free()
 		if global_position.y > 700 or global_position.y < -100:

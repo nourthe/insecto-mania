@@ -14,8 +14,8 @@ func _ready():
 
 
 func _on_menu_pressed():
-	get_tree().change_scene("res://escenas/menu.tscn")
+	global.to_scene("res://escenas/menu.tscn")
 
 
 func _on_volver_pressed():
-	get_tree().change_scene("res://escenas/supervivencia.tscn")
+	global.to_scene("res://escenas/supervivencia.tscn")

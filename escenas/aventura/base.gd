@@ -2,6 +2,7 @@ extends Motor
 class_name Base
 export (PackedScene) var next_scene
 var startTimer = Timer.new()
+var logrado = false
 
 func _ready():
 	connect_buttons()
@@ -22,21 +23,20 @@ func start_cuenta_atras():
 	startTimer.start()
 	
 func connect_buttons():
-	if $logrado_popup/cc/gc/siguiente.connect("pressed", self, "on_siguiente") != 0:
-		print("error")
-	if $logrado_popup/cc/gc/return.connect("pressed", self, "on_return") != 0:
-		print("error")
-	if $perdido_popup/cc/gc/reintentar.connect("pressed", self, "on_reintentar") != 0:
-		print("error")
-	if $perdido_popup/cc/gc/return.connect("pressed", self, "on_return") != 0:
-		print("error")
+	var error = 0
+	error += $logrado_popup/cc/gc/siguiente.connect("pressed", self, "on_siguiente")
+	error += $logrado_popup/cc/gc/return.connect("pressed", self, "on_return")
+	error += $perdido_popup/cc/gc/reintentar.connect("pressed", self, "on_reintentar")
+	error += $perdido_popup/cc/gc/return.connect("pressed", self, "on_return")
+	if not error == 0:
+		print("Error connecting buttons.")
+
 func start():
 	$presentacion.hide()
 	reanudar()
 
 func completado():
-	$animacion.play('logrado')
-	yield($animacion, "animation_finished")
+	logrado = true
 	remover_objeto($jugador)
 	$logrado_popup.rect_position = get_node("jugador").position
 	$logrado_popup.show()
@@ -46,14 +46,27 @@ func perdido():
 	$perdido_popup.show()
 
 func on_siguiente():
-	if global.change_scene_to(next_scene) != 0:
-		print("Error")
+	global.change_scene_to(next_scene)
 	
 func on_reintentar():
 	global.reload_current_scene()
 
 func on_return():
 	global.to_scene("res://escenas/menu_aventura.tscn")
+
+func _on_exit_body_entered(body):
+	if body == $jugador:
+		$animacion.play('logrado')
+		yield($animacion, "animation_finished")
+		completado()
+
+# Override
+func pause():
+	if not logrado:
+		get_tree().paused = true
+		return true
+	else:
+		return false
 
 func _on_popup_paused():
 	startTimer.paused = true

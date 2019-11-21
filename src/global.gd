@@ -18,17 +18,24 @@ func _ready():
 
 func update_scene():
 	var root = get_tree().get_root()
-	current_scene = root.get_child(root.get_child_count() - 1)
+	var new_scene = root.get_child(root.get_child_count() - 1)
+	current_scene = new_scene
 
 func reload_current_scene():
 	if get_tree().reload_current_scene() != 0:
 		print("Error")
+	yield(get_tree(), "tree_changed")
 	update_scene()
 
+
 func change_scene_to(scene):
+	call_deferred("_deferred_change_scene_to", scene)
+	
+func _deferred_change_scene_to(scene):
 	if get_tree().change_scene_to(scene) != 0:
-		print("Error")
+		print("global: Error trying to change scene to a packed scene.")
 	update_scene()
+
 
 func to_scene(path):
 	# This function will usually be called from a signal callback,
@@ -39,6 +46,7 @@ func to_scene(path):
 
 	# The solution is to defer the load to a later time, when
 	# we can be sure that no code from the current scene is running:
+	update_scene()
 	call_deferred("_deferred_goto_scene", path)
 
 
@@ -57,6 +65,7 @@ func _deferred_goto_scene(path):
 
 	# Optionally, to make it compatible with the SceneTree.change_scene() API.
 	get_tree().set_current_scene(current_scene)
+	print("nre scene: %s" % current_scene)
 
 func return_menu():
 	to_scene("res://escenas/menu.tscn")

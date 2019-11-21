@@ -13,7 +13,3 @@ func _process(delta):
 	if jugador.VIDAS < 1:
 		jugador.morir()
 		perdido()
-
-func _on_exit_body_entered(body):
-	if body == $jugador:
-		completado()

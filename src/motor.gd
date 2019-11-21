@@ -101,6 +101,7 @@ func addRandObject(objectString, rectExclude=Rect2(0,0,1,1)):
 
 func pause():
 	get_tree().paused = true
+	return true
 
 func reanudar():
 	get_node("pause_popup").hide()

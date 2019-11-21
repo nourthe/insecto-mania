@@ -5,12 +5,9 @@ export (bool) var follow_player = true
 signal paused
 signal unpaused
 
-func _ready():
-	print(visible)
-	
 # warning-ignore:unused_argument
 func _input(event):
-	if Input.is_action_just_released('pause'):
+	if event.is_action_released('pause'):
 		if !visible:
 			pause()
 		else:
@@ -28,9 +25,10 @@ func _notification(what):
 		pass
 
 func pause():
-	get_tree().paused = true
-	emit_signal("paused")
-	visible = true
+	if get_parent().has_method("pause"):
+		if get_parent().pause():
+			visible = true
+			emit_signal("paused")
 	if follow_player:
 		rect_position = get_parent().get_node("jugador").position
 

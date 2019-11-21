@@ -4,6 +4,7 @@ export (bool) var follow_player = true
 
 signal paused
 signal unpaused
+
 func _ready():
 	print(visible)
 	
@@ -39,14 +40,16 @@ func reanudar():
 	if get_parent().has_method("reanudar"):
 		get_parent().reanudar()
 		emit_signal("unpaused")
+	else:
+		print("Error in unpause.")
 
 func _on_unpause_pressed():
 	reanudar()
 
 func _on_return_menu_pressed():
-	reanudar()
+	get_tree().paused = false
 	global.return_menu()
 
 func _on_seleccion_pressed():
-	reanudar()
+	get_tree().paused = false
 	global.return_av_menu()

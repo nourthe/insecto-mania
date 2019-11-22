@@ -5,6 +5,8 @@ var startTimer = Timer.new()
 var logrado = false
 
 func _ready():
+	$animacion.stop(false)
+	
 	connect_buttons()
 	start_cuenta_atras()
 	set_presentacion("Evita los insectos y encuentra la salida")

@@ -44,8 +44,9 @@ func completado():
 	$logrado_popup.show()
 
 func perdido():
-	$perdido_popup.rect_position = get_node("jugador").position
-	$perdido_popup.show()
+	if not logrado:
+		$perdido_popup.rect_position = get_node("jugador").position
+		$perdido_popup.show()
 
 func on_siguiente():
 	global.change_scene_to(next_scene)

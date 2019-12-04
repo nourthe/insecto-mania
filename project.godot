@@ -41,6 +41,11 @@ config/icon="res://icon.png"
 
 global="*res://src/global.gd"
 
+[display]
+
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
 [input]
 
 pj_up={

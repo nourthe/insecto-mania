@@ -79,7 +79,6 @@ script = ExtResource( 1 )
 anims/mueve_bola = SubResource( 1 )
 
 [node name="player" parent="." instance=ExtResource( 3 )]
-editor/display_folded = true
 position = Vector2( -82.577, 239.961 )
 
 [node name="Joystick" parent="player/TouchUI" index="0"]

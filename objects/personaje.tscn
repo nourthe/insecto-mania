@@ -1,37 +1,38 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://src/personaje.shader" type="Shader" id=1]
 [ext_resource path="res://assets/bola.png" type="Texture" id=2]
 [ext_resource path="res://src/disparo.gd" type="Script" id=3]
 [ext_resource path="res://assets/disparo.png" type="Texture" id=4]
 [ext_resource path="res://assets/sounds/pain.wav" type="AudioStream" id=5]
+[ext_resource path="res://assets/bola_n.png" type="Texture" id=6]
 
-[sub_resource type="ShaderMaterial" id=8]
+[sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 1 )
 shader_param/inmune = null
 shader_param/VEL = 5.0
 
-[sub_resource type="ShaderMaterial" id=1]
+[sub_resource type="ShaderMaterial" id=2]
 shader = ExtResource( 1 )
 shader_param/inmune = false
 shader_param/VEL = 5.0
 
-[sub_resource type="Curve" id=2]
+[sub_resource type="Curve" id=3]
 _data = [ Vector2( 0, 1 ), 0.0, -0.405414, 0, 0, Vector2( 1, 0.4956 ), -0.580028, 0.0, 0, 0 ]
 
-[sub_resource type="CurveTexture" id=3]
-curve = SubResource( 2 )
+[sub_resource type="CurveTexture" id=4]
+curve = SubResource( 3 )
 
-[sub_resource type="ParticlesMaterial" id=4]
+[sub_resource type="ParticlesMaterial" id=5]
 flag_disable_z = true
 gravity = Vector3( 0, 0, 0 )
 angular_velocity = 1.0
 orbit_velocity = 0.0
 orbit_velocity_random = 0.0
 scale = 0.5
-scale_curve = SubResource( 3 )
+scale_curve = SubResource( 4 )
 
-[sub_resource type="CircleShape2D" id=5]
+[sub_resource type="CircleShape2D" id=6]
 
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 29.157, 6.27036 )
@@ -40,22 +41,24 @@ extents = Vector2( 29.157, 6.27036 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="sprite" type="Sprite" parent="."]
-material = SubResource( 8 )
+material = SubResource( 1 )
 texture = ExtResource( 2 )
+normal_map = ExtResource( 6 )
 
 [node name="cola" type="Particles2D" parent="sprite"]
-material = SubResource( 1 )
+material = SubResource( 2 )
 scale = Vector2( 0.5, 0.5 )
 amount = 14
 lifetime = 2.5
 speed_scale = 8.0
 local_coords = false
-process_material = SubResource( 4 )
+process_material = SubResource( 5 )
 texture = ExtResource( 2 )
+normal_map = ExtResource( 6 )
 
 [node name="hitbox" type="CollisionShape2D" parent="."]
 scale = Vector2( 5, 5 )
-shape = SubResource( 5 )
+shape = SubResource( 6 )
 
 [node name="inmune" type="Timer" parent="."]
 one_shot = true

@@ -28,16 +28,16 @@ func _ready():
 
 
 func get_input():
-    velocity = Vector2()
-    if Input.is_action_pressed('pj_right'):
-        velocity.x += 1
-    if Input.is_action_pressed('pj_left'):
-        velocity.x -= 1
-    if Input.is_action_pressed('pj_down'):
-        velocity.y += 1
-    if Input.is_action_pressed('pj_up'):
-        velocity.y -= 1
-    velocity = velocity.normalized() * speed
+	velocity = Vector2()
+	if Input.is_action_pressed('pj_right'):
+		velocity.x += 1
+	if Input.is_action_pressed('pj_left'):
+		velocity.x -= 1
+	if Input.is_action_pressed('pj_down'):
+		velocity.y += 1
+	if Input.is_action_pressed('pj_up'):
+		velocity.y -= 1
+	velocity = velocity.normalized() * speed
 func _input(event):
 	if Input.is_action_pressed("pj_shoot"):
 		disparar()

@@ -70,6 +70,7 @@ position = Vector2( 1.25439, 0.836243 )
 shape = SubResource( 1 )
 
 [node name="jugador" parent="." instance=ExtResource( 4 )]
+editor/display_folded = true
 position = Vector2( 515.12, 288.327 )
 script = ExtResource( 5 )
 
